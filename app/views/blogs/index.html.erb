@@ -10,6 +10,10 @@
       <%= link_to "編集", edit_blog_path(blog.id), class: 'btn btn-default btn-sm btn-success' %>
       <%= link_to "削除", blog_path(blog.id), method: :delete, data: { confirm: '本当に削除していいですか？'}, class: 'btn btn-default btn-sm btn btn-danger' %>
     </div>
+    
+    <div id="page-top-blog-btn" class="page-top-btn">
+      <p><a class="move-page-top" id="move-page-blog-top">▲</a></p>
+    </div>
     <% end %>
   </div>
 </div>
