@@ -6,19 +6,20 @@ class ContactsController < ApplicationController
             @contact = Contact.new
         end
     end
-    
+
     def create
         #Contact.create(contact_params)
         @contact = Contact.new(contact_params)
         if @contact.save
             #redirect_to new_contact_path, notice: "お問い合わせを受けつけました"
             redirect_to root_path, notice: "お問い合わせを受けつけました"
+            NoticeMailer.sendmail_contact(@contact).deliver
         else
             render "new"
         end
-        
+
     end
-    
+
     def confirm
         @contact = Contact.new(contact_params)
         render :new if @contact.invalid?
