@@ -10,3 +10,5 @@ heroku run rake db:migrate
 
 rails db
 
+■day13(APIsample)
+https://secure-retreat-74169.herokuapp.com/ | https://git.heroku.com/secure-retreat-74169.git
