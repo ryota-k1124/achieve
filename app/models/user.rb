@@ -23,7 +23,7 @@ class User < ActiveRecord::Base
     user
   end
   
-  省略
+
   def self.find_for_twitter_oauth(auth, signed_in_resource = nil)
     user = User.find_by(provider: auth.provider, uid: auth.uid)
 
