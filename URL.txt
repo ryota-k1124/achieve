@@ -1,5 +1,6 @@
 https://glacial-ocean-21974.herokuapp.com/ | https://git.heroku.com/glacial-ocean-21974.git
 https://shielded-gorge-98796.herokuapp.com/ | https://git.heroku.com/shielded-gorge-98796.git
+https://salty-coast-93333.herokuapp.com/ | https://git.heroku.com/salty-coast-93333.git
 
 git push heroku master
 heroku run rake db:seed
