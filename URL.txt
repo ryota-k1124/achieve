@@ -1,5 +1,4 @@
-https://glacial-ocean-21974.herokuapp.com/ | https://git.heroku.com/glacial-ocean-21974.git
-https://shielded-gorge-98796.herokuapp.com/ | https://git.heroku.com/shielded-gorge-98796.git
+
 https://secret-retreat-62764.herokuapp.com/ | https://git.heroku.com/secret-retreat-62764.git
 
 
@@ -14,3 +13,22 @@ rails db
 
 ■day13(APIsample)
 https://secure-retreat-74169.herokuapp.com/ | https://git.heroku.com/secure-retreat-74169.git
+
+dev
+アプリID
+359518157809917
+app secret
+0c2ffcc141f624b8e2a270e78c750c98
+
+product
+ID 123207208360191
+app secret
+a47fa6485b2e6c8ff8e9e11eeeb74506
+
+
+Consumer Key (API Key)	8edubYUA0zuNd6EWwbfGoZZkz
+Consumer Secret (API Secret)	7HC4QpYSNVKrUkdtLsUuOBfkKelI94LyqbYh6Xq6s6qIMFssEn
+
+
+
+

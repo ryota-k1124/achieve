@@ -54,6 +54,10 @@ gem 'faker'
 gem 'activeresource'
 gem 'rails_admin'
 gem 'cancan'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
 group :development do
   gem 'letter_opener_web'
+  gem 'dotenv-rails'
 end
