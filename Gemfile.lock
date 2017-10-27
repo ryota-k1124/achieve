@@ -261,11 +261,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
   activeresource
-=======
   better_errors
->>>>>>> 2e835425fa3d8ebb30a9698bd12d077c46896cee
   byebug
   cancan
   coffee-rails (~> 4.1.0)

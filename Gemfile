@@ -51,12 +51,9 @@ gem 'jquery-turbolinks'
 gem 'rails_12factor', group: :production
 gem 'devise'
 gem 'faker'
-<<<<<<< HEAD
 gem 'activeresource'
-=======
 gem 'rails_admin'
 gem 'cancan'
->>>>>>> 2e835425fa3d8ebb30a9698bd12d077c46896cee
 group :development do
   gem 'letter_opener_web'
 end
