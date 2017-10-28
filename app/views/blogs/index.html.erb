@@ -5,6 +5,12 @@
       <%= link_to "ブログを作成するだ", new_blog_path, class: 'btn btn-default' %>
     <% @blogs.each do |blog| %>
     <div class="row">
+    　<div>
+    　  <% unless blog.user_id.nil? %>
+    　　<div class="blog_img"><%= profile_img(blog.user) if profile_img(blog.user) %></div>
+    　　<%= blog.user.avatar %>
+    　<% end %>
+  　　</div>
       <%# modelでblogテーブルの一部のようにuserテーブルを使えるよう設定 %>
       <%# blogsのuser_id と　usersのidが勝手に関連してる（モデル_idで指定） %>
       <p><%= blog.user.try(:name) || "名無し" %><p>

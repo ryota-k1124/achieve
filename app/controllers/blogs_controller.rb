@@ -4,6 +4,7 @@ class BlogsController < ApplicationController
 
   def index
     @blogs = Blog.all
+    @IMG = current_user.id
     #binding.pry
     #raise
   end
