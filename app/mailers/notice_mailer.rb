@@ -22,7 +22,7 @@ class NoticeMailer < ApplicationMailer
     @contact = contact
 
     #mail to: "ryota-k@nttpc.co.jp"
-    mail to: @contact.email
-    mail subject: '【Achieve】お問い合わせを受け付けました'
+    mail to: @contact.email,
+    subject: '【Achieve】お問い合わせを受け付けました'
   end
 end
