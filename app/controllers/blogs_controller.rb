@@ -54,7 +54,11 @@ class BlogsController < ApplicationController
     @blog = Blog.new(blogs_params)
     render :new if @blog.invalid? # if文1行書き 実行文 if 条件
   end
-
+  
+  def show
+    @comment = @blog.comments.build
+    @comments = @blog.comments
+  end
 ## ストロングパラメータ
 ## paramsメソッドにて取得した値の内、blogのtitleとcontentだけ取り込み
   private

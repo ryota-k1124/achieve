@@ -1,39 +1,16 @@
+DAI2:https://evening-caverns-37566.herokuapp.com/ | https://git.heroku.com/evening-caverns-37566.git
 
-https://secret-retreat-62764.herokuapp.com/ | https://git.heroku.com/secret-retreat-62764.git
-https://immense-falls-21636.herokuapp.com/ | https://git.heroku.com/immense-falls-21636.git
-
-kiryot:~/workspace/achieve (master) $ heroku config:get SENDGRID_USERNAME
-app79813122@heroku.com
-kiryot:~/workspace/achieve (master) $ heroku config:get SENDGRID_PASSWORD
-y6y7aeim7873
 
 git push heroku master
 heroku run rake db:seed
 
 heroku pg:reset DATABASE
 heroku run rake db:migrate
+heroku logs -t 
 
 
 rails db
 
 ■day13(APIsample)
 https://secure-retreat-74169.herokuapp.com/ | https://git.heroku.com/secure-retreat-74169.git
-
-dev
-アプリID
-359518157809917
-app secret
-0c2ffcc141f624b8e2a270e78c750c98
-
-product
-ID 123207208360191
-app secret
-a47fa6485b2e6c8ff8e9e11eeeb74506
-
-
-Consumer Key (API Key)	8edubYUA0zuNd6EWwbfGoZZkz
-Consumer Secret (API Secret)	7HC4QpYSNVKrUkdtLsUuOBfkKelI94LyqbYh6Xq6s6qIMFssEn
-
-
-
 
