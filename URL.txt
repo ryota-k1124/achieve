@@ -8,7 +8,7 @@ heroku pg:reset DATABASE
 heroku run rake db:migrate
 heroku logs -t 
 
-
+$ rake assets:precompile
 rails db
 
 ■day13(APIsample)
