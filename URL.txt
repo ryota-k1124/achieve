@@ -8,7 +8,10 @@ heroku pg:reset DATABASE
 heroku run rake db:migrate
 heroku logs -t 
 
+
+# stylesheet が反映されないとき
 $ rake assets:precompile
+
 rails db
 
 ■day13(APIsample)
