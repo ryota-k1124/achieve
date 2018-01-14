@@ -1,0 +1,13 @@
+
+  <% if @message.errors.any? %>
+    <div id="error_explanation">
+      #バリデーションエラーの件数を表示します。
+      <h2><%= @message.errors.count %>件のエラーがあります。</h2>
+
+      <ul>
+        <% @message.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
