@@ -23,9 +23,6 @@
       $('#unread_count').html(data.unread_counts);
     });
   </script>
-    <%= link_to notifications_index_path, class: "navbar-brand" do %>
-      <i class="fa fa-bell fa-1x"><span id="unread_count"><%= @notifications_count %></span></i>
-    <% end %>
   <% end %>
 </head>
 
@@ -47,6 +44,9 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+              <%= link_to notifications_index_path, class: "navbar-brand" do %>
+                <i class="fa fa-bell fa-1x"><span id="unread_count"><%= @notifications_count %></span></i>
+              <% end %>
               <li><%= link_to "お問い合わせ", new_contact_path %></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
