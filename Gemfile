@@ -63,4 +63,6 @@ gem 'mini_magick'
 group :development do
   gem 'letter_opener_web'
   gem 'dotenv-rails'
+gem 'pusher'
+
 end
