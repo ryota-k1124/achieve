@@ -60,9 +60,8 @@ gem 'omniauth-twitter'
 gem 'omniauth-facebook'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'pusher'
 group :development do
   gem 'letter_opener_web'
   gem 'dotenv-rails'
-gem 'pusher'
-
 end
