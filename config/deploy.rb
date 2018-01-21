@@ -4,7 +4,7 @@ lock '3.6.0'
 set :application, 'achieve'
 
 # cloneするgitのレポジトリ（xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, 'https://github.com/ryota-k1124/achieve'
+set :repo_url, 'https://github.com/ryota-k1124/achieve.git'
 
 # deployするブランチ。デフォルトはmasterなのでなくても可。
 set :branch, ENV['BRANCH'] || 'master'
